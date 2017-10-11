@@ -30,7 +30,6 @@ import qualified XMonad.Util.ExtensibleState as XS
 import XMonad.Actions.DynamicWorkspaces
 import XMonad.Actions.GridSelect
 import XMonad.Util.WindowProperties
-import XMonad.AppGroups (oneOf)
 import XMonad.Utils
 
 data StoredProperties = StoredProperties {
