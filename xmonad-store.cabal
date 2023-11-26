@@ -19,8 +19,8 @@ library
   exposed-modules:     XMonad.Store
   -- other-modules:       
   other-extensions:    OverloadedStrings, FlexibleInstances, DeriveDataTypeable
-  build-depends:       base >=4.9 && <4.10,
-                       filepath >=1.4 && <1.5,
+  build-depends:       base >=4.9 && <5,
+                       filepath >=1.4,
                        Glob >= 0.7,
                        yaml >= 0.8,
                        xmonad >= 0.13,
